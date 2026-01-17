@@ -2,15 +2,13 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
-// يتم تحميل البيانات من ملف .env.local للأمان
-// تأكد من أن القيم موجودة في الملف وتبدأ بـ REACT_APP_
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_FIREBASE_APP_ID
+  apiKey: "AIzaSyAA10OUHUTZ_zU1l49UDbsnvA4JVh2KdSg",
+  authDomain: "physiomanager-73d16.firebaseapp.com",
+  projectId: "physiomanager-73d16",
+  storageBucket: "physiomanager-73d16.firebasestorage.app",
+  messagingSenderId: "949932536072",
+  appId: "1:949932536072:web:3accb8b4380e7f5d10bcbd"
 };
 
 // Initialize Firebase
